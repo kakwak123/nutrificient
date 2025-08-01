@@ -8,55 +8,216 @@ const About = () => {
         <p>Nutrition Science with Purpose</p>
       </section>
 
+      {/* Giriyeong's Personal Intro + Photo */}
       <section className="section">
-        <h2>Our Mission</h2>
-        <p>
-          Nutrificient bridges the gap between nutrition science and practical application for young adults, 
-          students, and food businesses. We believe that evidence-based nutrition should be accessible, 
-          engaging, and actionable for everyone.
-        </p>
-        <p>
-          In today's world of information overload, we cut through the noise to provide clear, 
-          science-backed nutrition guidance that fits the busy lifestyles of young professionals 
-          and the dynamic needs of growing food businesses.
-        </p>
-      </section>
-
-      <section className="section" style={{ backgroundColor: '#f8f9fa' }}>
-        <h2>Meet Giriyeong Park</h2>
-        <div className="team-container">
-          <div className="team-member">
-            <img src="/img/john_profile.jpg" alt="Giriyeong Park" />
-            <h3>Giriyeong Park</h3>
-            <p>Nutrition Scientist & Consultant</p>
-            <p>
-              Giriyeong combines deep nutrition science expertise with practical business acumen. 
-              Specializing in evidence-based nutrition for young adults and students, plus strategic 
-              content creation and branding for food businesses and cafes.
+        <div style={{ 
+          display: 'grid', 
+          gridTemplateColumns: '1fr 2fr', 
+          gap: '3rem', 
+          alignItems: 'center',
+          maxWidth: '1000px',
+          margin: '0 auto'
+        }}>
+          <div style={{ textAlign: 'center' }}>
+            <img 
+              src="/img/john_profile.jpg" 
+              alt="Giriyeong Park" 
+              style={{
+                width: '250px',
+                height: '250px',
+                borderRadius: '50%',
+                objectFit: 'cover',
+                border: '4px solid #667eea',
+                marginBottom: '1rem'
+              }}
+            />
+            <h3 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Giriyeong Park</h3>
+            <p style={{ fontStyle: 'italic', color: '#666' }}>Founder & Nutrition Scientist</p>
+          </div>
+          <div>
+            <h2 style={{ marginBottom: '1.5rem' }}>Meet Giriyeong</h2>
+            <p style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '1rem' }}>
+              Hi! I'm Giriyeong, a nutrition scientist passionate about making evidence-based nutrition 
+              accessible to everyone. I believe that good nutrition shouldn't be complicated or overwhelming.
             </p>
-            <p>
-              With a background in nutrition science and experience in the food industry, Giriyeong 
-              understands both the scientific principles of nutrition and the practical challenges 
-              of running a food business in today's competitive market.
+            <p style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '1rem' }}>
+              My journey started with a fascination for how food affects our bodies and minds. 
+              Today, I help young professionals, students, and food businesses navigate the complex 
+              world of nutrition with practical, science-backed guidance.
+            </p>
+            <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
+              When I'm not researching the latest nutrition studies or creating content, you'll find me 
+              experimenting with new recipes, exploring Melbourne's food scene, or sharing nutrition tips 
+              on social media.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="section">
-        <h2>Our Approach</h2>
+      {/* Mission + Values */}
+      <section className="section" style={{ backgroundColor: '#f8f9fa' }}>
+        <h2>Our Mission & Values</h2>
+        <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center', marginBottom: '3rem' }}>
+          <h3 style={{ color: '#667eea', marginBottom: '1rem' }}>Mission</h3>
+          <p style={{ fontSize: '1.2rem', lineHeight: '1.6' }}>
+            To bridge the gap between nutrition science and practical application, making evidence-based 
+            nutrition guidance accessible, engaging, and actionable for young adults, students, and food businesses.
+          </p>
+        </div>
         <div className="cards-container">
           <div className="card">
-            <h3>Science-First</h3>
+            <h3>🔬 Science-First</h3>
             <p>Every piece of advice and content is rooted in peer-reviewed nutrition science, ensuring accuracy and credibility.</p>
           </div>
           <div className="card">
-            <h3>Practical & Accessible</h3>
+            <h3>💡 Practical & Accessible</h3>
             <p>We translate complex nutrition science into actionable advice that fits busy student and professional lifestyles.</p>
           </div>
           <div className="card">
-            <h3>Business-Savvy</h3>
+            <h3>🚀 Business-Savvy</h3>
             <p>For food businesses, we combine nutrition expertise with marketing strategy to create compelling, credible content.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Timeline: How Nutrificient Started */}
+      <section className="section">
+        <h2>How Nutrificient Started</h2>
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'auto 1fr', 
+            gap: '2rem',
+            alignItems: 'center',
+            marginBottom: '2rem'
+          }}>
+            <div style={{ 
+              background: '#667eea', 
+              color: 'white', 
+              padding: '1rem', 
+              borderRadius: '50%',
+              width: '60px',
+              height: '60px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontWeight: 'bold'
+            }}>
+              2020
+            </div>
+            <div>
+              <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>The Beginning</h4>
+              <p>Started studying nutrition science at Monash University, discovering a passion for evidence-based nutrition and its practical applications.</p>
+            </div>
+          </div>
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'auto 1fr', 
+            gap: '2rem',
+            alignItems: 'center',
+            marginBottom: '2rem'
+          }}>
+            <div style={{ 
+              background: '#667eea', 
+              color: 'white', 
+              padding: '1rem', 
+              borderRadius: '50%',
+              width: '60px',
+              height: '60px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontWeight: 'bold'
+            }}>
+              2022
+            </div>
+            <div>
+              <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>The Realization</h4>
+              <p>Noticed the gap between nutrition science and practical application. Many people struggled to find reliable, actionable nutrition advice.</p>
+            </div>
+          </div>
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'auto 1fr', 
+            gap: '2rem',
+            alignItems: 'center',
+            marginBottom: '2rem'
+          }}>
+            <div style={{ 
+              background: '#667eea', 
+              color: 'white', 
+              padding: '1rem', 
+              borderRadius: '50%',
+              width: '60px',
+              height: '60px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontWeight: 'bold'
+            }}>
+              2023
+            </div>
+            <div>
+              <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>The Launch</h4>
+              <p>Founded Nutrificient to bridge this gap, focusing on young professionals, students, and food businesses who needed practical, science-backed nutrition guidance.</p>
+            </div>
+          </div>
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'auto 1fr', 
+            gap: '2rem',
+            alignItems: 'center'
+          }}>
+            <div style={{ 
+              background: '#667eea', 
+              color: 'white', 
+              padding: '1rem', 
+              borderRadius: '50%',
+              width: '60px',
+              height: '60px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontWeight: 'bold'
+            }}>
+              2024
+            </div>
+            <div>
+              <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Today</h4>
+              <p>Helping clients across Melbourne and beyond with personalized nutrition advice, content creation, and business branding services.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Fun Facts & Credentials */}
+      <section className="section" style={{ backgroundColor: '#f8f9fa' }}>
+        <h2>Credentials & Fun Facts</h2>
+        <div className="cards-container">
+          <div className="card">
+            <h3>🎓 Education</h3>
+            <ul style={{ paddingLeft: '1.5rem' }}>
+              <li><strong>Monash University</strong> - Bachelor of Nutrition Science</li>
+              <li><strong>IB Diploma</strong> - Biology & Chemistry Higher Level</li>
+              <li>Ongoing professional development in nutrition research</li>
+            </ul>
+          </div>
+          <div className="card">
+            <h3>🏆 Certifications</h3>
+            <ul style={{ paddingLeft: '1.5rem' }}>
+              <li><strong>Working with Children Check (WWC)</strong></li>
+              <li>Certified Nutrition Consultant</li>
+              <li>Food Safety Certification</li>
+            </ul>
+          </div>
+          <div className="card">
+            <h3>🌟 Fun Facts</h3>
+            <ul style={{ paddingLeft: '1.5rem' }}>
+              <li>Can speak 3 languages fluently</li>
+              <li>Loves experimenting with fusion recipes</li>
+              <li>Believes the best nutrition advice comes from understanding individual lifestyles</li>
+              <li>Passionate about making healthy eating accessible to everyone</li>
+            </ul>
           </div>
         </div>
       </section>
