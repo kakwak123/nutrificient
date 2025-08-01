@@ -54,10 +54,10 @@ const Footer = () => {
         </div>
         
         <div className="social-links">
-          <a href="#" aria-label="Facebook">📘</a>
-          <a href="#" aria-label="Instagram">📷</a>
-          <a href="#" aria-label="Twitter">🐦</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
+          <a href="https://facebook.com" aria-label="Facebook">📘</a>
+          <a href="https://instagram.com" aria-label="Instagram">📷</a>
+          <a href="https://twitter.com" aria-label="Twitter">🐦</a>
+          <a href="https://linkedin.com" aria-label="LinkedIn">💼</a>
         </div>
         
         <div style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '1px solid #555' }}>
