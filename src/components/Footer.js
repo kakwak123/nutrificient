@@ -1,0 +1,71 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <div className="footer-content">
+        <div style={{ marginBottom: '2rem' }}>
+          <h3 style={{ marginBottom: '1rem' }}>Nutrificient</h3>
+          <p>Transforming lives through nutrition and wellness</p>
+        </div>
+        
+        <div style={{ 
+          display: 'grid', 
+          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', 
+          gap: '2rem',
+          marginBottom: '2rem'
+        }}>
+          <div>
+            <h4 style={{ marginBottom: '1rem' }}>Quick Links</h4>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
+              </li>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <Link to="/about" style={{ color: 'white', textDecoration: 'none' }}>About</Link>
+              </li>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <Link to="/services" style={{ color: 'white', textDecoration: 'none' }}>Services</Link>
+              </li>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <Link to="/contact" style={{ color: 'white', textDecoration: 'none' }}>Contact</Link>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 style={{ marginBottom: '1rem' }}>Services</h4>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
+              <li style={{ marginBottom: '0.5rem' }}>Meal Planning</li>
+              <li style={{ marginBottom: '0.5rem' }}>Nutrition Consultation</li>
+              <li style={{ marginBottom: '0.5rem' }}>Weight Management</li>
+              <li style={{ marginBottom: '0.5rem' }}>Wellness Coaching</li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 style={{ marginBottom: '1rem' }}>Contact Info</h4>
+            <p style={{ marginBottom: '0.5rem' }}>Giriyeong Park</p>
+            <p style={{ marginBottom: '0.5rem' }}>info@nutrificient.com</p>
+            <p style={{ marginBottom: '0.5rem' }}>+61 479 105 978</p>
+            <p>568 Collins Street, Melbourne, VIC, Australia</p>
+          </div>
+        </div>
+        
+        <div className="social-links">
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Twitter">🐦</a>
+          <a href="#" aria-label="LinkedIn">💼</a>
+        </div>
+        
+        <div style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '1px solid #555' }}>
+          <p>&copy; 2024 Nutrificient. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer; 
