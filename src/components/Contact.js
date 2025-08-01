@@ -117,13 +117,19 @@ const Contact = () => {
                     fontSize: '1rem'
                   }}
                 >
-                  <option value="">Select a service</option>
-                  <option value="meal-planning">Personalized Meal Planning</option>
-                  <option value="consultation">Nutrition Consultation</option>
-                  <option value="weight-management">Weight Management</option>
-                  <option value="wellness-coaching">Wellness Coaching</option>
-                  <option value="sports-nutrition">Sports Nutrition</option>
-                  <option value="other">Other</option>
+                                  <option value="">Select a service</option>
+                <option value="personal-nutrition">Personal Nutrition Advice</option>
+                <option value="student-workshops">Student Wellness Workshops</option>
+                <option value="professional-coaching">Young Professional Coaching</option>
+                <option value="meal-planning">Personalized Meal Planning</option>
+                <option value="consultation">Nutrition Consultation</option>
+                <option value="weight-management">Weight Management</option>
+                <option value="wellness-coaching">Wellness Coaching</option>
+                <option value="sports-nutrition">Sports Nutrition</option>
+                <option value="content-creation">Nutrition Content Creation</option>
+                <option value="business-branding">Food Business Branding</option>
+                <option value="workshop-content">Workshop & Event Content</option>
+                <option value="other">Other</option>
                 </select>
               </div>
               <div className="form-group">
@@ -149,16 +155,16 @@ const Contact = () => {
         <h2>Frequently Asked Questions</h2>
         <div className="cards-container">
           <div className="card">
-            <h3>How long does a consultation take?</h3>
-            <p>Initial consultations typically last 60-90 minutes, allowing us to thoroughly assess your needs and create a personalized plan.</p>
+            <h3>Do you work with university students?</h3>
+            <p>Absolutely! We specialize in student nutrition and offer workshops, individual consultations, and budget-friendly meal planning for university students.</p>
           </div>
           <div className="card">
-            <h3>Do you offer virtual consultations?</h3>
-            <p>Yes! We offer both in-person and virtual consultations to accommodate your schedule and preferences.</p>
+            <h3>What types of content do you create?</h3>
+            <p>We create blog posts, social media content, educational materials, and workshop content - all backed by nutrition science and tailored to your audience.</p>
           </div>
           <div className="card">
-            <h3>What should I bring to my first appointment?</h3>
-            <p>Please bring any recent medical reports, current medications list, and a food diary if you have one.</p>
+            <h3>How can you help my food business?</h3>
+            <p>We provide nutrition consultation for menu development, branding strategy, content creation, and customer education to help your business stand out.</p>
           </div>
         </div>
       </section>

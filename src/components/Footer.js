@@ -37,10 +37,10 @@ const Footer = () => {
           <div>
             <h4 style={{ marginBottom: '1rem' }}>Services</h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
-              <li style={{ marginBottom: '0.5rem' }}>Meal Planning</li>
-              <li style={{ marginBottom: '0.5rem' }}>Nutrition Consultation</li>
-              <li style={{ marginBottom: '0.5rem' }}>Weight Management</li>
-              <li style={{ marginBottom: '0.5rem' }}>Wellness Coaching</li>
+              <li style={{ marginBottom: '0.5rem' }}>Personal Nutrition Advice</li>
+              <li style={{ marginBottom: '0.5rem' }}>Student Wellness Workshops</li>
+              <li style={{ marginBottom: '0.5rem' }}>Content Creation</li>
+              <li style={{ marginBottom: '0.5rem' }}>Business Branding</li>
             </ul>
           </div>
           

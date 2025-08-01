@@ -5,62 +5,58 @@ const About = () => {
     <div>
       <section className="hero">
         <h1>About Nutrificient</h1>
-        <p>Dedicated to transforming lives through nutrition and wellness</p>
+        <p>Nutrition Science with Purpose</p>
       </section>
 
       <section className="section">
-        <h2>Our Story</h2>
+        <h2>Our Mission</h2>
         <p>
-          Nutrificient was founded with a simple yet powerful mission: to help people achieve optimal health 
-          through evidence-based nutrition and personalized wellness strategies. We believe that everyone 
-          deserves access to expert nutrition guidance that fits their unique lifestyle and goals.
+          Nutrificient bridges the gap between nutrition science and practical application for young adults, 
+          students, and food businesses. We believe that evidence-based nutrition should be accessible, 
+          engaging, and actionable for everyone.
         </p>
         <p>
-          Our journey began when we recognized the overwhelming amount of conflicting nutrition information 
-          available today. We wanted to create a trusted resource where people could find clear, 
-          science-backed advice tailored to their individual needs.
+          In today's world of information overload, we cut through the noise to provide clear, 
+          science-backed nutrition guidance that fits the busy lifestyles of young professionals 
+          and the dynamic needs of growing food businesses.
         </p>
       </section>
 
       <section className="section" style={{ backgroundColor: '#f8f9fa' }}>
-        <h2>Our Team</h2>
+        <h2>Meet Giriyeong Park</h2>
         <div className="team-container">
           <div className="team-member">
-            <img src="/img/john_profile.jpg" alt="John" />
-            <h3>John</h3>
-            <p>Nutrition Specialist</p>
+            <img src="/img/john_profile.jpg" alt="Giriyeong Park" />
+            <h3>Giriyeong Park</h3>
+            <p>Nutrition Scientist & Consultant</p>
             <p>
-              With over 10 years of experience in clinical nutrition, John specializes in creating 
-              personalized meal plans and helping clients achieve their health goals through sustainable 
-              dietary changes.
+              Giriyeong combines deep nutrition science expertise with practical business acumen. 
+              Specializing in evidence-based nutrition for young adults and students, plus strategic 
+              content creation and branding for food businesses and cafes.
             </p>
-          </div>
-          <div className="team-member">
-            <img src="/img/wendy_profile.jpg" alt="Wendy" />
-            <h3>Wendy</h3>
-            <p>Wellness Coach</p>
             <p>
-              Wendy brings her expertise in holistic wellness and lifestyle coaching to help clients 
-              integrate healthy habits into their daily routines and maintain long-term success.
+              With a background in nutrition science and experience in the food industry, Giriyeong 
+              understands both the scientific principles of nutrition and the practical challenges 
+              of running a food business in today's competitive market.
             </p>
           </div>
         </div>
       </section>
 
       <section className="section">
-        <h2>Our Values</h2>
+        <h2>Our Approach</h2>
         <div className="cards-container">
           <div className="card">
-            <h3>Evidence-Based</h3>
-            <p>Every recommendation we make is grounded in the latest scientific research and clinical evidence.</p>
+            <h3>Science-First</h3>
+            <p>Every piece of advice and content is rooted in peer-reviewed nutrition science, ensuring accuracy and credibility.</p>
           </div>
           <div className="card">
-            <h3>Personalized</h3>
-            <p>We understand that no two people are alike, which is why we create customized plans for each individual.</p>
+            <h3>Practical & Accessible</h3>
+            <p>We translate complex nutrition science into actionable advice that fits busy student and professional lifestyles.</p>
           </div>
           <div className="card">
-            <h3>Sustainable</h3>
-            <p>We focus on creating lasting change through realistic, achievable goals and ongoing support.</p>
+            <h3>Business-Savvy</h3>
+            <p>For food businesses, we combine nutrition expertise with marketing strategy to create compelling, credible content.</p>
           </div>
         </div>
       </section>
