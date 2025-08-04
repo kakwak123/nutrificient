@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import InstagramIcon from '../Img/Instagram.jpg';
 
 const Footer = () => {
   return (
@@ -55,7 +56,9 @@ const Footer = () => {
         
         <div className="social-links">
           <a href="https://facebook.com" aria-label="Facebook">📘</a>
-          <a href="https://www.instagram.com/qkr_rl_fud/" aria-label="Instagram">📷</a>
+          <a href="https://www.instagram.com/qkr_rl_fud/" aria-label="Instagram">
+            <img src={InstagramIcon} alt="Instagram" style={{ width: '24px', height: '24px' }} />
+          </a>
           <a href="https://twitter.com" aria-label="Twitter">🐦</a>
           <a href="https://linkedin.com" aria-label="LinkedIn">💼</a>
         </div>
