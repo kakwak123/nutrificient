@@ -26,8 +26,8 @@ const Home = () => {
       <section className="section" style={{ padding: '3rem 2rem', textAlign: 'center' }}>
         <h2 style={{ fontSize: '1.8rem', marginBottom: '1rem' }}>Our Mission</h2>
         <p style={{ fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto', lineHeight: '1.6' }}>
-          Empowering young professionals and students with evidence-based nutrition guidance, 
-          while helping food businesses create compelling, science-backed content that stands out.
+          Transforming lives through science-driven nutrition solutions for ambitious young professionals and students, 
+          while empowering food businesses with compelling, research-backed content that captivates and converts.
         </p>
       </section>
 
