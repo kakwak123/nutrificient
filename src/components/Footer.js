@@ -55,7 +55,7 @@ const Footer = () => {
         
         <div className="social-links">
           <a href="https://facebook.com" aria-label="Facebook">📘</a>
-          <a href="https://instagram.com" aria-label="Instagram">📷</a>
+          <a href="https://www.instagram.com/qkr_rl_fud/" aria-label="Instagram">📷</a>
           <a href="https://twitter.com" aria-label="Twitter">🐦</a>
           <a href="https://linkedin.com" aria-label="LinkedIn">💼</a>
         </div>
