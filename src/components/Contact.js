@@ -19,8 +19,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We will get back to you soon.');
+    // Form submission logic would go here
     setFormData({
       name: '',
       email: '',
@@ -41,7 +40,7 @@ const Contact = () => {
         <h2>Get In Touch</h2>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', alignItems: 'start' }}>
                       <div>
-              <h3 style={{ marginBottom: '1rem', color: '#667eea' }}>Contact Information</h3>
+              <h3 style={{ marginBottom: '1rem', color: '#4CAF50' }}>Contact Information</h3>
               <div style={{ marginBottom: '2rem' }}>
                 <h4 style={{ marginBottom: '0.5rem' }}>Nutrition Expert</h4>
                 <p>Giriyeong Park</p>
@@ -68,7 +67,7 @@ const Contact = () => {
             </div>
 
           <div className="contact-form">
-            <h3 style={{ marginBottom: '2rem', color: '#667eea' }}>Send us a Message</h3>
+            <h3 style={{ marginBottom: '2rem', color: '#4CAF50' }}>Send us a Message</h3>
             <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="name">Full Name *</label>

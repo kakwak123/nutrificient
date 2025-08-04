@@ -128,9 +128,9 @@ const Blog = () => {
               onClick={() => handleTagClick(tag.id)}
               style={{
                 padding: '0.5rem 1rem',
-                border: selectedTag === tag.id ? '2px solid #667eea' : '2px solid #e1e5e9',
+                border: selectedTag === tag.id ? '2px solid #4CAF50' : '2px solid #e1e5e9',
                 borderRadius: '25px',
-                background: selectedTag === tag.id ? '#667eea' : 'white',
+                background: selectedTag === tag.id ? '#4CAF50' : 'white',
                 color: selectedTag === tag.id ? 'white' : '#333',
                 cursor: 'pointer',
                 transition: 'all 0.3s ease',
@@ -227,8 +227,8 @@ const Blog = () => {
                     </span>
                     <button style={{
                       background: 'transparent',
-                      border: '2px solid #667eea',
-                      color: '#667eea',
+                      border: '2px solid #4CAF50',
+                      color: '#4CAF50',
                       padding: '0.5rem 1rem',
                       borderRadius: '5px',
                       cursor: 'pointer',
@@ -276,7 +276,7 @@ const Blog = () => {
                 style={{
                   padding: '0.5rem 1rem',
                   border: '1px solid #e1e5e9',
-                  background: currentPage === page ? '#667eea' : 'white',
+                  background: currentPage === page ? '#4CAF50' : 'white',
                   color: currentPage === page ? 'white' : '#333',
                   borderRadius: '5px',
                   cursor: 'pointer'

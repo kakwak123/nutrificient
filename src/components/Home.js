@@ -50,7 +50,7 @@ const Home = () => {
             <Link to="/services" style={{ 
               display: 'inline-block', 
               marginTop: '1rem',
-              color: '#667eea',
+              color: '#4CAF50',
               textDecoration: 'none',
               fontWeight: 'bold'
             }}>
@@ -72,7 +72,7 @@ const Home = () => {
             <Link to="/services" style={{ 
               display: 'inline-block', 
               marginTop: '1rem',
-              color: '#667eea',
+              color: '#4CAF50',
               textDecoration: 'none',
               fontWeight: 'bold'
             }}>
@@ -94,7 +94,7 @@ const Home = () => {
             <Link to="/services" style={{ 
               display: 'inline-block', 
               marginTop: '1rem',
-              color: '#667eea',
+              color: '#4CAF50',
               textDecoration: 'none',
               fontWeight: 'bold'
             }}>
@@ -113,21 +113,21 @@ const Home = () => {
               "Giriyeong's nutrition advice helped me balance my studies with healthy eating. 
               The student workshops were practical and budget-friendly!"
             </p>
-            <p style={{ fontWeight: 'bold', color: '#667eea' }}>- Sarah, University Student</p>
+            <p style={{ fontWeight: 'bold', color: '#4CAF50' }}>- Sarah, University Student</p>
           </div>
           <div className="card">
             <p style={{ fontStyle: 'italic', marginBottom: '1rem' }}>
               "The content creation service transformed our cafe's social media presence. 
               Our customers now trust our nutrition messaging completely."
             </p>
-            <p style={{ fontWeight: 'bold', color: '#667eea' }}>- Mike, Cafe Owner</p>
+            <p style={{ fontWeight: 'bold', color: '#4CAF50' }}>- Mike, Cafe Owner</p>
           </div>
           <div className="card">
             <p style={{ fontStyle: 'italic', marginBottom: '1rem' }}>
               "As a young professional, I needed practical nutrition strategies. 
               Giriyeong's coaching helped me maintain energy and focus at work."
             </p>
-            <p style={{ fontWeight: 'bold', color: '#667eea' }}>- Emma, Marketing Professional</p>
+            <p style={{ fontWeight: 'bold', color: '#4CAF50' }}>- Emma, Marketing Professional</p>
           </div>
         </div>
       </section>

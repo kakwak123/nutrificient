@@ -39,12 +39,12 @@ const Consulting = () => {
         <div className="cards-container">
           {/* Starter Consult */}
           <div className="card" style={{ 
-            border: selectedService === 'starter' ? '3px solid #667eea' : '1px solid #e1e5e9',
+            border: selectedService === 'starter' ? '3px solid #4CAF50' : '1px solid #e1e5e9',
             transform: selectedService === 'starter' ? 'scale(1.02)' : 'scale(1)',
             transition: 'all 0.3s ease'
           }}>
             <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
-              <h3 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Starter Consult</h3>
+              <h3 style={{ color: '#4CAF50', marginBottom: '0.5rem' }}>Starter Consult</h3>
               <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#333' }}>$75</div>
               <div style={{ color: '#666', fontSize: '0.9rem' }}>30 minutes</div>
             </div>
@@ -69,7 +69,7 @@ const Consulting = () => {
 
           {/* Full Lifestyle Plan */}
           <div className="card" style={{ 
-            border: selectedService === 'full' ? '3px solid #667eea' : '1px solid #e1e5e9',
+            border: selectedService === 'full' ? '3px solid #4CAF50' : '1px solid #e1e5e9',
             transform: selectedService === 'full' ? 'scale(1.02)' : 'scale(1)',
             transition: 'all 0.3s ease',
             position: 'relative'
@@ -89,7 +89,7 @@ const Consulting = () => {
               MOST POPULAR
             </div>
             <div style={{ textAlign: 'center', marginBottom: '1.5rem', marginTop: '1rem' }}>
-              <h3 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Full Lifestyle Plan</h3>
+              <h3 style={{ color: '#4CAF50', marginBottom: '0.5rem' }}>Full Lifestyle Plan</h3>
               <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#333' }}>$150</div>
               <div style={{ color: '#666', fontSize: '0.9rem' }}>1 hour</div>
             </div>
@@ -115,12 +115,12 @@ const Consulting = () => {
 
           {/* Business Strategy */}
           <div className="card" style={{ 
-            border: selectedService === 'business' ? '3px solid #667eea' : '1px solid #e1e5e9',
+            border: selectedService === 'business' ? '3px solid #4CAF50' : '1px solid #e1e5e9',
             transform: selectedService === 'business' ? 'scale(1.02)' : 'scale(1)',
             transition: 'all 0.3s ease'
           }}>
             <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
-              <h3 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Business Strategy</h3>
+              <h3 style={{ color: '#4CAF50', marginBottom: '0.5rem' }}>Business Strategy</h3>
               <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#333' }}>Custom Quote</div>
               <div style={{ color: '#666', fontSize: '0.9rem' }}>Flexible duration</div>
             </div>

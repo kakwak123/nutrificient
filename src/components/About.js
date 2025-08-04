@@ -56,7 +56,7 @@ const About = () => {
 
       {/* Mission + Values */}
       <section className="section" style={{ backgroundColor: '#f8f9fa' }}>
-        <h2>Our Mission & Values</h2>
+        <h2>Our Missiasdfasdfon & Values</h2>
         <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center', marginBottom: '3rem' }}>
           <h3 style={{ color: '#667eea', marginBottom: '1rem' }}>Mission</h3>
           <p style={{ fontSize: '1.2rem', lineHeight: '1.6' }}>
