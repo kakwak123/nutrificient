@@ -1,5 +1,5 @@
 # nutrificient
-Giriyeongs website
+Giryeongs website
 
 
 https://nutrificient.pages.dev/services

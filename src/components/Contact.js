@@ -42,12 +42,12 @@ const Contact = () => {
                       <div>
               <h3 style={{ marginBottom: '1rem', color: '#4CAF50' }}>Contact Information</h3>
               <div style={{ marginBottom: '2rem' }}>
-                <h4 style={{ marginBottom: '0.5rem' }}>Nutrition Expert</h4>
-                <p>Giriyeong Park</p>
+                <h4 style={{ marginBottom: '0.5rem' }}>Nutrition Student & Consultant</h4>
+                <p>Giryeong Park</p>
               </div>
               <div style={{ marginBottom: '2rem' }}>
                 <h4 style={{ marginBottom: '0.5rem' }}>Email</h4>
-                <p>info@nutrificient.com</p>
+                <p>giryeong.park2006@gmail.com</p>
               </div>
               <div style={{ marginBottom: '2rem' }}>
                 <h4 style={{ marginBottom: '0.5rem' }}>Mobile</h4>
@@ -61,8 +61,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 style={{ marginBottom: '0.5rem' }}>Location</h4>
-                <p>568 Collins Street</p>
-                <p>Melbourne, VIC, Australia</p>
+                <p>VIC 3000 Melbourne</p>
               </div>
             </div>
 
@@ -70,7 +69,7 @@ const Contact = () => {
             <h3 style={{ marginBottom: '2rem', color: '#4CAF50' }}>Send us a Message</h3>
             <form onSubmit={handleSubmit}>
               <div className="form-group">
-                <label htmlFor="name">Full Name *</label>
+                <label htmlFor="name">Full Name <span style={{ color: 'red' }}>*</span></label>
                 <input
                   type="text"
                   id="name"
@@ -81,7 +80,7 @@ const Contact = () => {
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="email">Email Address *</label>
+                <label htmlFor="email">Email Address <span style={{ color: 'red' }}>*</span></label>
                 <input
                   type="email"
                   id="email"
@@ -132,7 +131,7 @@ const Contact = () => {
                 </select>
               </div>
               <div className="form-group">
-                <label htmlFor="message">Message *</label>
+                <label htmlFor="message">Message <span style={{ color: 'red' }}>*</span></label>
                 <textarea
                   id="message"
                   name="message"

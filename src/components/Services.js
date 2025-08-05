@@ -13,7 +13,7 @@ const Services = () => {
         <h2>Personal Nutrition Services</h2>
         <div className="cards-container">
           <div className="card">
-            <h3>Personal Nutrition Advice</h3>
+            <h3 style={{ color: 'black' }}>Personal Nutrition Advice</h3>
             <p>
               Evidence-based nutrition guidance tailored for young adults, students, and professionals. 
               We focus on practical, sustainable eating strategies that fit busy lifestyles.
@@ -26,7 +26,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="card">
-            <h3>Student Wellness Workshops</h3>
+            <h3 style={{ color: 'black' }}>Student Wellness Workshops</h3>
             <p>
               Interactive workshops designed specifically for university students, covering nutrition 
               basics, stress eating, budget-friendly healthy eating, and exam period nutrition.
@@ -39,7 +39,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="card">
-            <h3>Young Professional Coaching</h3>
+            <h3 style={{ color: 'black' }}>Young Professional Coaching</h3>
             <p>
               Nutrition strategies for early-career professionals balancing work demands with health goals. 
               Focus on energy optimization, stress management, and sustainable habits.
@@ -52,7 +52,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="card">
-            <h3>Personalized Meal Planning</h3>
+            <h3 style={{ color: 'black' }}>Personalized Meal Planning</h3>
             <p>
               Custom meal plans designed specifically for your dietary preferences, health goals, and lifestyle. 
               We consider your schedule, cooking skills, and food preferences to create practical, delicious meal plans.
@@ -65,7 +65,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="card">
-            <h3>Weight Management</h3>
+            <h3 style={{ color: 'black' }}>Weight Management</h3>
             <p>
               Sustainable weight loss and maintenance programs that focus on long-term success through 
               healthy eating habits and lifestyle changes.
@@ -84,7 +84,7 @@ const Services = () => {
         <h2>Specialized Nutrition Services</h2>
         <div className="cards-container">
           <div className="card">
-            <h3>Wellness Coaching</h3>
+            <h3 style={{ color: 'black' }}>Wellness Coaching</h3>
             <p>
               Comprehensive wellness programs that address nutrition, stress management, sleep, 
               and physical activity to optimize your overall health and well-being.
@@ -97,7 +97,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="card">
-            <h3>Sports Nutrition</h3>
+            <h3 style={{ color: 'black' }}>Sports Nutrition</h3>
             <p>
               Specialized nutrition guidance for athletes and active individuals to enhance performance, 
               recovery, and overall fitness goals.
@@ -110,7 +110,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="card">
-            <h3>Nutrition Consultation</h3>
+            <h3 style={{ color: 'black' }}>Nutrition Consultation</h3>
             <p>
               One-on-one sessions to address your specific health concerns, dietary restrictions, 
               and wellness objectives with personalized recommendations.
@@ -129,7 +129,7 @@ const Services = () => {
         <h2>Business & Content Services</h2>
         <div className="cards-container">
           <div className="card">
-            <h3>Nutrition Content Creation</h3>
+            <h3 style={{ color: 'black' }}>Nutrition Content Creation</h3>
             <p>
               Professional nutrition content for blogs, social media, newsletters, and educational materials. 
               Science-backed content that engages your audience and builds credibility.
@@ -142,7 +142,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="card">
-            <h3>Food Business Branding</h3>
+            <h3 style={{ color: 'black' }}>Food Business Branding</h3>
             <p>
               Strategic nutrition consultation for cafes, restaurants, food startups, and wellness brands. 
               Help your business stand out with credible, compelling nutrition messaging.
@@ -155,7 +155,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="card">
-            <h3>Workshop & Event Content</h3>
+            <h3 style={{ color: 'black' }}>Workshop & Event Content</h3>
             <p>
               Custom nutrition workshops and educational content for corporate events, wellness programs, 
               and community initiatives.

@@ -8,7 +8,7 @@ const About = () => {
         <p>Nutrition Science with Purpose</p>
       </section>
 
-      {/* Giriyeong's Personal Intro + Photo */}
+              {/* Giryeong's Personal Intro + Photo */}
       <section className="section">
         <div style={{ 
           display: 'grid', 
@@ -21,7 +21,7 @@ const About = () => {
           <div style={{ textAlign: 'center' }}>
             <img 
               src="/img/john_profile.jpg" 
-              alt="Giriyeong Park" 
+              alt="Giryeong Park" 
               style={{
                 width: '250px',
                 height: '250px',
@@ -31,13 +31,13 @@ const About = () => {
                 marginBottom: '1rem'
               }}
             />
-            <h3 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Giriyeong Park</h3>
+            <h3 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Giryeong Park</h3>
             <p style={{ fontStyle: 'italic', color: '#666' }}>Founder & Nutrition Scientist</p>
           </div>
           <div>
-            <h2 style={{ marginBottom: '1.5rem' }}>Meet Giriyeong</h2>
+            <h2 style={{ marginBottom: '1.5rem' }}>Meet Giryeong</h2>
             <p style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '1rem' }}>
-              Hi! I'm Giriyeong, a nutrition scientist passionate about making evidence-based nutrition 
+                              Hi! I'm Giryeong, a nutrition scientist passionate about making evidence-based nutrition 
               accessible to everyone. I believe that good nutrition shouldn't be complicated or overwhelming.
             </p>
             <p style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '1rem' }}>
