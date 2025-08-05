@@ -32,7 +32,7 @@ const About = () => {
               }}
             />
             <h3 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Giryeong Park</h3>
-            <p style={{ fontStyle: 'italic', color: '#666' }}>Founder & Nutrition Scientist</p>
+            <p style={{ fontStyle: 'italic', color: '#666' }}>Founder</p>
           </div>
           <div>
             <h2 style={{ marginBottom: '1.5rem' }}>Meet Giryeong</h2>
@@ -56,7 +56,7 @@ const About = () => {
 
       {/* Mission + Values */}
       <section className="section" style={{ backgroundColor: '#f8f9fa' }}>
-        <h2>Our Missiasdfasdfon & Values</h2>
+                 <h2>Our Mission & Values</h2>
         <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center', marginBottom: '3rem' }}>
           <h3 style={{ color: '#667eea', marginBottom: '1rem' }}>Mission</h3>
           <p style={{ fontSize: '1.2rem', lineHeight: '1.6' }}>
@@ -84,109 +84,109 @@ const About = () => {
       <section className="section">
         <h2>How Nutrificient Started</h2>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'auto 1fr', 
-            gap: '2rem',
-            alignItems: 'center',
-            marginBottom: '2rem'
-          }}>
-            <div style={{ 
-              background: '#667eea', 
-              color: 'white', 
-              padding: '1rem', 
-              borderRadius: '50%',
-              width: '60px',
-              height: '60px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontWeight: 'bold'
-            }}>
-              2020
-            </div>
-            <div>
-              <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>The Beginning</h4>
-              <p>Started studying nutrition science at Monash University, discovering a passion for evidence-based nutrition and its practical applications.</p>
-            </div>
-          </div>
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'auto 1fr', 
-            gap: '2rem',
-            alignItems: 'center',
-            marginBottom: '2rem'
-          }}>
-            <div style={{ 
-              background: '#667eea', 
-              color: 'white', 
-              padding: '1rem', 
-              borderRadius: '50%',
-              width: '60px',
-              height: '60px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontWeight: 'bold'
-            }}>
-              2022
-            </div>
-            <div>
-              <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>The Realization</h4>
-              <p>Noticed the gap between nutrition science and practical application. Many people struggled to find reliable, actionable nutrition advice.</p>
-            </div>
-          </div>
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'auto 1fr', 
-            gap: '2rem',
-            alignItems: 'center',
-            marginBottom: '2rem'
-          }}>
-            <div style={{ 
-              background: '#667eea', 
-              color: 'white', 
-              padding: '1rem', 
-              borderRadius: '50%',
-              width: '60px',
-              height: '60px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontWeight: 'bold'
-            }}>
-              2023
-            </div>
-            <div>
-              <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>The Launch</h4>
-              <p>Founded Nutrificient to bridge this gap, focusing on young professionals, students, and food businesses who needed practical, science-backed nutrition guidance.</p>
-            </div>
-          </div>
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'auto 1fr', 
-            gap: '2rem',
-            alignItems: 'center'
-          }}>
-            <div style={{ 
-              background: '#667eea', 
-              color: 'white', 
-              padding: '1rem', 
-              borderRadius: '50%',
-              width: '60px',
-              height: '60px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontWeight: 'bold'
-            }}>
-              2024
-            </div>
-            <div>
-              <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Today</h4>
-              <p>Helping clients across Melbourne and beyond with personalized nutrition advice, content creation, and business branding services.</p>
-            </div>
-          </div>
+                     <div style={{ 
+             display: 'grid', 
+             gridTemplateColumns: 'auto 1fr', 
+             gap: '2rem',
+             alignItems: 'center',
+             marginBottom: '2rem'
+           }}>
+             <div style={{ 
+               background: '#667eea', 
+               color: 'white', 
+               padding: '1rem', 
+               borderRadius: '50%',
+               width: '60px',
+               height: '60px',
+               display: 'flex',
+               alignItems: 'center',
+               justifyContent: 'center',
+               fontWeight: 'bold'
+             }}>
+               2020
+             </div>
+             <div>
+               <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>The Curiosity Begins</h4>
+               <p>Developed a deep interest in nutrition and how food affects our bodies and minds. Started researching nutrition science and experimenting with healthy eating habits.</p>
+             </div>
+           </div>
+           <div style={{ 
+             display: 'grid', 
+             gridTemplateColumns: 'auto 1fr', 
+             gap: '2rem',
+             alignItems: 'center',
+             marginBottom: '2rem'
+           }}>
+             <div style={{ 
+               background: '#667eea', 
+               color: 'white', 
+               padding: '1rem', 
+               borderRadius: '50%',
+               width: '60px',
+               height: '60px',
+               display: 'flex',
+               alignItems: 'center',
+               justifyContent: 'center',
+               fontWeight: 'bold'
+             }}>
+               2022
+             </div>
+             <div>
+               <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>The Realization</h4>
+               <p>Noticed the gap between nutrition science and practical application. Many people struggled to find reliable, actionable nutrition advice that fit their busy lifestyles.</p>
+             </div>
+           </div>
+           <div style={{ 
+             display: 'grid', 
+             gridTemplateColumns: 'auto 1fr', 
+             gap: '2rem',
+             alignItems: 'center',
+             marginBottom: '2rem'
+           }}>
+             <div style={{ 
+               background: '#667eea', 
+               color: 'white', 
+               padding: '1rem', 
+               borderRadius: '50%',
+               width: '60px',
+               height: '60px',
+               display: 'flex',
+               alignItems: 'center',
+               justifyContent: 'center',
+               fontWeight: 'bold'
+             }}>
+               2024
+             </div>
+             <div>
+               <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>The Academic Journey</h4>
+               <p>Started studying Bachelor of Nutrition Science at Monash University, turning my passion into formal education and gaining deeper knowledge of evidence-based nutrition.</p>
+             </div>
+           </div>
+           <div style={{ 
+             display: 'grid', 
+             gridTemplateColumns: 'auto 1fr', 
+             gap: '2rem',
+             alignItems: 'center'
+           }}>
+             <div style={{ 
+               background: '#667eea', 
+               color: 'white', 
+               padding: '1rem', 
+               borderRadius: '50%',
+               width: '60px',
+               height: '60px',
+               display: 'flex',
+               alignItems: 'center',
+               justifyContent: 'center',
+               fontWeight: 'bold'
+             }}>
+               2025
+             </div>
+             <div>
+               <h4 style={{ color: '#667eea', marginBottom: '0.5rem' }}>Today</h4>
+               <p>Currently studying nutrition science while helping students, young professionals, and food businesses with practical, science-backed nutrition guidance and content creation.</p>
+             </div>
+           </div>
         </div>
       </section>
 
@@ -198,18 +198,17 @@ const About = () => {
             <h3>🎓 Education</h3>
             <ul style={{ paddingLeft: '1.5rem' }}>
               <li><strong>Monash University</strong> - Bachelor of Nutrition Science</li>
-              <li><strong>IB Diploma</strong> - Biology & Chemistry Higher Level</li>
+                             <li><strong>IB Diploma</strong> - Biology & Chemistry</li>
               <li>Ongoing professional development in nutrition research</li>
             </ul>
           </div>
-          <div className="card">
-            <h3>🏆 Certifications</h3>
-            <ul style={{ paddingLeft: '1.5rem' }}>
-              <li><strong>Working with Children Check (WWC)</strong></li>
-              <li>Certified Nutrition Consultant</li>
-              <li>Food Safety Certification</li>
-            </ul>
-          </div>
+                     <div className="card">
+             <h3>🏆 Certifications</h3>
+             <ul style={{ paddingLeft: '1.5rem' }}>
+               <li><strong>Working with Children Check (WWC)</strong></li>
+               <li>Food Safety Certification</li>
+             </ul>
+           </div>
           <div className="card">
             <h3>🌟 Fun Facts</h3>
             <ul style={{ paddingLeft: '1.5rem' }}>
