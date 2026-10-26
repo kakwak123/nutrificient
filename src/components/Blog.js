@@ -154,6 +154,10 @@ const Blog = () => {
               <img 
                 src={article.image} 
                 alt={article.title}
+                width="400"
+                height="250"
+                loading="lazy"
+                decoding="async"
                 style={{
                   width: '100%',
                   height: '200px',

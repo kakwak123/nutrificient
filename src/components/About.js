@@ -22,6 +22,9 @@ const About = () => {
             <img 
               src="/img/john_profile.jpg" 
               alt="Giryeong Park" 
+              width="250"
+              height="250"
+              decoding="async"
               style={{
                 width: '250px',
                 height: '250px',
